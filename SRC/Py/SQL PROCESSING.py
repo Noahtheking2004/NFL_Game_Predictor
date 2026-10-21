@@ -1,5 +1,6 @@
 import sqlite3
 import nflreadpy as nfl
+from Config import DB_PATH
 
 # ---------- Settings ----------
 FIRST_SEASON = 2018
@@ -10,7 +11,7 @@ current = nfl.get_current_season()
 all_seasons = list(range(FIRST_SEASON, current + 1))
 print(f"Current season: {current}")
 
-conn = sqlite3.connect("nfl.db")
+conn = sqlite3.connect(DB_PATH)
 
 
 def table_exists(name):

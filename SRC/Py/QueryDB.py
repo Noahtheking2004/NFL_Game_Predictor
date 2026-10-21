@@ -1,7 +1,7 @@
 import sqlite3
 import pandas as pd
 
-conn = sqlite3.connect("nfl.db")
+conn = sqlite3.connect("../nfl.db")
 
 query = """
     SELECT posteam,
