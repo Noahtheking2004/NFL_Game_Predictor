@@ -25,7 +25,7 @@ This project is currently a work in progress, but I am using the NFLreadpy packa
 Each of these features is a home team minus away team calculation
 
 
-**Week 7 predictions
+** Week 7 predictions
 
 | Away | Home | Home Win Prob | Pick| Actual winner |
 | ---- | ---- | -------------:| --- | ------------- |
